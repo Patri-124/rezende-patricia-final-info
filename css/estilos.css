@@ -146,7 +146,7 @@ a.link-exclude {
 }
 
 .offcanvas.show {
-    background: #1A1A1A;
+    background: #ed0942;
     /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(26, 26, 26, 1) 76%, rgba(254, 250, 246, 1) 100%); */
 }
 
@@ -247,6 +247,7 @@ a.link-exclude {
 section {
     min-height: 100vh;
     /*position: relative;*/
+
 }
  /* Seccion Principal */
 #seccion-principal {
@@ -269,6 +270,17 @@ padding:2em;
 }
  
  
+/* Seccion Sobre */
+ #seccion-sobre {
+    background-image: url(../img/fondo/porta.jpg);
+    /* Imagen con opacidad al 60% */
+}
+#seccion-sobre  h2, #seccion-sobre p {
+text-align: center;
+
+}
+
+
 /* Seccion video */
 
 #seccion-videos iframe {
